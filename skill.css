@@ -1,0 +1,64 @@
+* {
+  background-color: black;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-two__s{
+  color:rgb(14, 93, 14) ;
+
+}
+
+.section-two__h:hover{
+  color: rgb(14, 93, 14);
+}
+
+
+.section-two__a:hover {
+  color: rgb(14, 93, 14);
+}
+
+.section-two__c:hover {
+  color: rgb(14, 93, 14);
+}
+.section-one__name,
+.section-one {
+  padding: 20px;
+  display: inline;
+}
+
+.section-two,
+.section-two__h,
+.section-two__a,
+.section-two__s,
+.section-two__c {
+  display: inline-block;
+  text-align: right;
+  padding-left: 20px;
+  padding-left: 10px;
+}
+
+.section-two {
+  width: 1130px;
+}
+.skill-tag {
+  display: inline-block;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+.bar {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.progress {
+  background-color:rgb(14, 93, 14);
+  height: 20px;
+}
+.hi,.hii{
+  margin-top: 25px;
+}

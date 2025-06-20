@@ -1,0 +1,105 @@
+* {
+  background-color: black;
+  color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section-two__c{
+  color:rgb(14, 93, 14) ;
+
+}
+
+.section-two__h:hover{
+  color: rgb(14, 93, 14);
+}
+
+
+.section-two__s:hover {
+  color: rgb(14, 93, 14);
+}
+
+.section-two__a:hover {
+  color: rgb(14, 93, 14);
+}
+.section-one__name,
+.section-one {
+  padding: 20px;
+  display: inline;
+}
+
+.section-two,
+.section-two__h,
+.section-two__a,
+.section-two__s,
+.section-two__c {
+  display: inline-block;
+  text-align: right;
+  padding-left: 20px;
+  padding-left: 10px;
+}
+
+.section-two {
+  width: 1130px;
+}
+img{
+  height: 30px;
+  width: 30px;
+}
+.connect,.connect__one,.connect__two,.connect__three,.connect__four{
+  background-color: white;
+  display:inline-block ;
+}
+.connect{
+  width: 500px;
+  height: 450px;
+  border-radius: 30px;
+  margin-left: 400px;
+  margin-top: 75px;
+  text-align: center;
+  padding-top: 10px;
+}
+.connect__one{
+  font-size: 40px;
+}
+.contact-form {
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  margin-top: 10px;
+  padding: 0 20px;
+  background-color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid orange;
+  background-color:white;
+  color: white;
+  font-size: 16px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: orange;
+}
+
+.contact-form button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.contact-form button:hover {
+  background-color: orange;
+  border: 5px solid orange;
+}
+.contact-form input:hover,
+.contact-form textarea:hover{
+  border: 2px solid orange;
+} 
