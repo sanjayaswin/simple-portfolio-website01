@@ -56,6 +56,8 @@ img{
   margin-top: 75px;
   text-align: center;
   padding-top: 10px;
+  box-shadow:orange 0px 7px 29px 0px;
+  animation: ani 2s ease-in-out;
 }
 .connect__one{
   font-size: 40px;
@@ -75,7 +77,7 @@ img{
   border-radius: 8px;
   border: 1px solid orange;
   background-color:white;
-  color: white;
+  color: black;
   font-size: 16px;
 }
 
@@ -86,7 +88,7 @@ img{
 
 .contact-form button {
   background-color: orange;
-  color: white;
+  color: rgb(2, 0, 0);
   border: none;
   padding: 12px;
   border-radius: 8px;
@@ -94,12 +96,89 @@ img{
   cursor: pointer;
   transition: 0.1s;
 }
-
+button{
+  transition-delay: 1s;
+}
 .contact-form button:hover {
-  background-color: orange;
-  border: 5px solid orange;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  transition-duration: 1s;
 }
 .contact-form input:hover,
 .contact-form textarea:hover{
   border: 2px solid orange;
 } 
+.input1{
+  animation: app1 1s ease-in-out;
+}
+.input2{
+  animation: app2 1.5s ease-in-out;
+}
+.input3{
+  animation: app3 2s ease-in-out;
+}
+.input4{
+  animation: app4 2.5s ease-in-out;
+}
+.button{
+  animation: app5 2.5s ease-in-out;
+}
+@keyframes app1 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app2 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app3 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app4 {
+  0% {
+    margin-left: 200px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes app5 {
+  0%{
+    transform: scale(0.5);
+    box-shadow: none;
+  }
+
+  100%{
+    transform: scale(1) ;
+  }
+}
+@keyframes ani {
+  0%{
+    transform: scale(0.5);
+    box-shadow: none;
+  }
+50%{
+      transform: scale(1.2) ;
+
+}
+  100%{
+    transform: scale(1) ;
+  }
+}

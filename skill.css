@@ -55,10 +55,37 @@
   overflow: hidden;
   margin-bottom: 10px;
 }
-.progress {
+.progress1 {
   background-color:rgb(14, 93, 14);
   height: 20px;
+  animation: len1 2s ease-in-out;
+}
+.progress2 {
+  background-color:rgb(14, 93, 14);
+  height: 20px;
+    animation: len2 2s ease-in-out;
+
 }
 .hi,.hii{
   margin-top: 25px;
+}
+@keyframes 
+len1 {
+  0%{
+width: 0%;
+  }
+  100%{
+width: 85%;
+
+  }
+}
+@keyframes 
+len2 {
+  0%{
+width: 0%;
+  }
+  100%{
+width: 60%;
+
+  }
 }

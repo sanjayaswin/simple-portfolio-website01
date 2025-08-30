@@ -168,6 +168,9 @@ strong,span,.aboutme__one,.aboutme__two,.aboutme__three,.aboutme{
     padding: 10px;
     margin-top: 50px;
     margin-left: 200px;
+    animation: one 3s ease-in-out ;
+    box-shadow:#DDEB9D 0px 7px 29px 0px;
+
 }
 .aboutme__two,.aboutme__three{
     padding-left: 30px;
@@ -175,11 +178,27 @@ strong,span,.aboutme__one,.aboutme__two,.aboutme__three,.aboutme{
 }
 .one{
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .wide{
     background-color: black;
 }
 .aboutme__three{
     padding-top: -50px;
+}
+
+@keyframes one {
+  0%{
+    transform: scale(0.5);
+    box-shadow: none;
+  }
+  50%{
+    transform: scale(1.1);
+        box-shadow: none;
+
+  }
+  100%{
+    transform: scale(1) ;
+
+  }
 }
